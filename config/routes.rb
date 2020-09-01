@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   #                   # then we want method action in application controller
   #                   # so to specify method in application controller, use '#' after
   root 'pages#home'
+
+  get 'about', to: 'pages#about' # get request to "about" page
 end

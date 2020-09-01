@@ -32,4 +32,4 @@ conventional expectations for MVC:
 - under views, rails will expect a pages folder (named for pages controller) and a home.html.erb template for the home action
 
 to generate controller by default: 'rails generate controller <name>'
-- this creates a controller and view
+- this creates a controller, view, and stylesheet
